@@ -4,13 +4,29 @@ The UPAR dataset is the harmonization of four public datasets (PA100K, PETA, RAP
 40 binary attributes have been unified between those for which we provide additional annotations.
 This dataset enables the investigation of Pedestrian Attribute Recognition (PAR) methods' generalization ability under different attribute distributions, viewpoints, varying illumination, and low resolutions.
 The UPAR annotations and this repository are published under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/de/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License</a>.
-If you use the UPAR dataset, please cite our paper as well as the papers of the sub-datasets (see [Dataset information](#Datasetinformation))
+If you use the UPAR dataset, please cite our papers as well as the papers of the sub-datasets (see [Dataset information](#Datasetinformation))
 ```
 @inproceedings{specker2023upar,
   title={UPAR: Unified Pedestrian Attribute Recognition and Person Retrieval},
   author={Specker, Andreas and Cormier, Mickael and Beyerer, J{\"u}rgen},
   booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
   year={2023}
+}
+@InProceedings{Cormier_2023_WACV,
+    author    = {Cormier, Mickael and Specker, Andreas and Junior, Julio C. S. Jacques and Florin, Lucas and Metzler, J\"urgen and Moeslund, Thomas B. and Nasrollahi, Kamal and Escalera, Sergio and Beyerer, J\"urgen},
+    title     = {UPAR Challenge: Pedestrian Attribute Recognition and Attribute-Based Person Retrieval -- Dataset, Design, and Results},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
+    month     = {January},
+    year      = {2023},
+    pages     = {166-175}
+}
+@InProceedings{Cormier_2024_WACV,
+    author    = {Cormier, Mickael and Specker, Andreas and Junior, Julio C. S. Jacques and Moritz, Lennart and Metzler, J\"urgen and Moeslund, Thomas B. and Nasrollahi, Kamal and Escalera, Sergio and Beyerer, J\"urgen},
+    title     = {UPAR Challenge 2024: Pedestrian Attribute Recognition and Attribute-Based Person Retrieval - Dataset, Design, and Results},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
+    month     = {January},
+    year      = {2024},
+    pages     = {359-367}
 }
 ```
 
